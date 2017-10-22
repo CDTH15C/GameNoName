@@ -1,9 +1,20 @@
 fileFormatVersion: 2
 guid: 3f95e70154b6ea04ebf0f4a2e62717d6
-timeCreated: 1508333666
+timeCreated: 1508508300
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_0
+    21300002: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_1
+    21300004: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_3
+    21300006: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_4
+    21300008: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_5
+    21300010: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_6
+    21300012: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_7
+    21300014: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_8
+    21300016: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_9
+    21300018: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_10
+    21300020: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_11
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -27,20 +38,20 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 22
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -51,16 +62,191 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_0
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 247
+        width: 70
+        height: 32
+      alignment: 9
+      pivot: {x: 0.48955712, y: 0.061487675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 248
+        width: 72
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0040184655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 248
+        width: 41
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09843699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_4
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 162
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.44594517, y: 0.038678754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 162
+        width: 52
+        height: 69
+      alignment: 9
+      pivot: {x: 0.49555382, y: 0.03495302}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_6
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 162
+        width: 58
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5335509, y: 0.01853715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 80
+        width: 61
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0009609516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_8
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 80
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 80
+        width: 64
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.008402781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_10
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 80
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.008402781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock-vector-freezing-animation-or-creation-of-ice-sprite-sheet-for-cartoon-or-game-487400617_11
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 80
+        width: 64
+        height: 65
+      alignment: 9
+      pivot: {x: 0.48403692, y: 0.0052593523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

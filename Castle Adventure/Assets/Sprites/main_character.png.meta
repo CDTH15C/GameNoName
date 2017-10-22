@@ -1,9 +1,129 @@
 fileFormatVersion: 2
 guid: c5fd69ee5383ada408fe26a980f9b9b3
-timeCreated: 1508333670
+timeCreated: 1508666913
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: idle_00
+    21300002: idle_01
+    21300004: idle_02
+    21300006: idle_03
+    21300008: idle_04
+    21300010: idle_05
+    21300012: main_character_6
+    21300014: main_character_7
+    21300016: main_character_8
+    21300018: main_character_9
+    21300020: main_character_10
+    21300022: main_character_11
+    21300024: main_character_12
+    21300026: main_character_13
+    21300028: main_character_14
+    21300030: main_character_15
+    21300032: main_character_16
+    21300034: main_character_17
+    21300036: main_character_18
+    21300038: main_character_19
+    21300040: main_character_20
+    21300042: main_character_21
+    21300044: main_character_22
+    21300046: main_character_23
+    21300048: run_01
+    21300050: run_02
+    21300052: run_03
+    21300054: run_04
+    21300056: run_05
+    21300058: run_06
+    21300060: combo1_00
+    21300062: combo1_01
+    21300064: combo1_02
+    21300066: combo1_03
+    21300068: combo1_04
+    21300070: combo1_05
+    21300072: combo1_06
+    21300074: combo1_07
+    21300076: combo1_08
+    21300078: main_character_39
+    21300080: combo2_00
+    21300082: combo2_01
+    21300084: combo2_02
+    21300086: combo2_03
+    21300088: combo2_04
+    21300090: combo2_05
+    21300092: combo3_00
+    21300094: combo3_01
+    21300096: combo3_02
+    21300098: combo3_03
+    21300100: combo3_04
+    21300102: combo3_05
+    21300104: combo3_06
+    21300106: combo3_07
+    21300108: combo3_08
+    21300110: main_character_55
+    21300112: main_character_56
+    21300114: main_character_57
+    21300116: main_character_58
+    21300118: main_character_59
+    21300120: main_character_60
+    21300122: combo5_00
+    21300124: combo5_001
+    21300126: combo5_01
+    21300128: combo5_02
+    21300130: combo5_03
+    21300132: combo5_04
+    21300134: combo5_05
+    21300136: combo5_06
+    21300138: main_character_69
+    21300140: combo4_00
+    21300142: combo4_01
+    21300144: combo4_02
+    21300146: combo4_03
+    21300148: combo4_04
+    21300150: combo4_05
+    21300152: combo4_06
+    21300154: main_character_77
+    21300156: main_character_78
+    21300158: main_character_79
+    21300160: main_character_80
+    21300162: main_character_81
+    21300164: main_character_82
+    21300166: main_character_83
+    21300168: charging_00
+    21300170: charging_01
+    21300172: main_character_86
+    21300174: main_character_87
+    21300176: main_character_88
+    21300178: main_character_89
+    21300180: main_character_90
+    21300182: main_character_91
+    21300184: main_character_92
+    21300186: main_character_93
+    21300188: main_character_94
+    21300190: main_character_95
+    21300192: main_character_96
+    21300194: jump_00
+    21300196: jump_spin_00
+    21300198: jump_spin_01
+    21300200: falling
+    21300202: main_character_101
+    21300204: main_character_102
+    21300206: main_character_103
+    21300208: main_character_104
+    21300210: main_character_105
+    21300212: main_character_106
+    21300214: main_character_107
+    21300216: main_character_108
+    21300218: main_character_109
+    21300220: main_character_110
+    21300222: main_character_111
+    21300224: main_character_112
+    21300226: main_character_113
+    21300228: main_character_114
+    21300230: main_character_115
+    21300232: main_character_116
+    21300234: main_character_117
+    21300236: main_character_118
+    21300238: main_character_119
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -27,20 +147,20 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 40
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -51,16 +171,1608 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: idle_00
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 509
+        width: 45
+        height: 55
+      alignment: 9
+      pivot: {x: 0.25836408, y: 0.48169056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_01
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 509
+        width: 46
+        height: 55
+      alignment: 9
+      pivot: {x: 0.27463606, y: 0.48168945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_02
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 509
+        width: 51
+        height: 56
+      alignment: 9
+      pivot: {x: 0.28647614, y: 0.49132103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_03
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 509
+        width: 54
+        height: 55
+      alignment: 9
+      pivot: {x: 0.30700824, y: 0.50082564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_04
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 509
+        width: 53
+        height: 54
+      alignment: 9
+      pivot: {x: 0.29460663, y: 0.5091225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_05
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 509
+        width: 49
+        height: 54
+      alignment: 9
+      pivot: {x: 0.25991073, y: 0.510107}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 509
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 509
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_8
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 509
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_9
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 509
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 509
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 509
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_12
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 509
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_13
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 509
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_14
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 509
+        width: 68
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_15
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 509
+        width: 63
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_16
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 509
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 454
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_18
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 454
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 454
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_20
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 454
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_21
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 454
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_22
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 454
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_23
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 454
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: run_01
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 442
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: run_02
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 442
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: run_03
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 439
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: run_04
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 442
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: run_05
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 442
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: run_06
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 439
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo1_00
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 442
+        width: 57
+        height: 46
+      alignment: 9
+      pivot: {x: 0.08311275, y: 0.5911149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo1_01
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 442
+        width: 53
+        height: 47
+      alignment: 9
+      pivot: {x: 0.2402816, y: 0.37797123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo1_02
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 442
+        width: 62
+        height: 41
+      alignment: 9
+      pivot: {x: 0.4067747, y: 0.40498835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo1_03
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 442
+        width: 48
+        height: 63
+      alignment: 9
+      pivot: {x: 0.6376216, y: 0.29285154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo1_04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 367
+        width: 71
+        height: 53
+      alignment: 9
+      pivot: {x: 0.72399026, y: 0.34548894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo1_05
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 367
+        width: 73
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5404076, y: 0.5681093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo1_06
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 367
+        width: 56
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4047157, y: 0.5520961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo1_07
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 367
+        width: 56
+        height: 35
+      alignment: 9
+      pivot: {x: 0.40215057, y: 0.55502754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo1_08
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 367
+        width: 58
+        height: 39
+      alignment: 9
+      pivot: {x: 0.6958145, y: 0.4732392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_39
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 367
+        width: 37
+        height: 56
+      alignment: 9
+      pivot: {x: 0.67237645, y: 0.467968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo2_00
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 367
+        width: 44
+        height: 34
+      alignment: 9
+      pivot: {x: 0.70277476, y: 0.30865657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo2_01
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 367
+        width: 71
+        height: 34
+      alignment: 9
+      pivot: {x: 0.48691055, y: 0.25398612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo2_02
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 367
+        width: 65
+        height: 64
+      alignment: 9
+      pivot: {x: 0.6429819, y: 0.2357068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo2_03
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 367
+        width: 67
+        height: 72
+      alignment: 9
+      pivot: {x: 0.49445125, y: 0.17213398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo2_04
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 367
+        width: 85
+        height: 48
+      alignment: 9
+      pivot: {x: 0.45189065, y: 0.25603676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo2_05
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 367
+        width: 72
+        height: 44
+      alignment: 9
+      pivot: {x: 0.47934723, y: 0.27610293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo3_00
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 367
+        width: 54
+        height: 46
+      alignment: 9
+      pivot: {x: 0.503106, y: 0.84432054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo3_01
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 367
+        width: 32
+        height: 58
+      alignment: 9
+      pivot: {x: 0.44514847, y: 0.62811434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo3_02
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 367
+        width: 53
+        height: 52
+      alignment: 9
+      pivot: {x: 0.66597414, y: 0.39992288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo3_03
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 297
+        width: 40
+        height: 65
+      alignment: 9
+      pivot: {x: 0.56416523, y: -0.08449003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo3_04
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 297
+        width: 40
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5840477, y: -0.11124784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo3_05
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 297
+        width: 40
+        height: 65
+      alignment: 9
+      pivot: {x: 0.57476425, y: -0.062692024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo3_06
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 297
+        width: 43
+        height: 57
+      alignment: 9
+      pivot: {x: 0.42960483, y: 0.1334282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo3_07
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 297
+        width: 39
+        height: 66
+      alignment: 9
+      pivot: {x: 0.3999708, y: 0.22547728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo3_08
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 297
+        width: 36
+        height: 53
+      alignment: 9
+      pivot: {x: 0.715897, y: 0.020954635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_55
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 297
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_56
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 297
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_57
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 297
+        width: 70
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_58
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 297
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_59
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 297
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_60
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 297
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo5_00
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 297
+        width: 55
+        height: 43
+      alignment: 9
+      pivot: {x: 0.32048562, y: 0.4216472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo5_001
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 297
+        width: 45
+        height: 44
+      alignment: 9
+      pivot: {x: 0.38979357, y: 0.41999263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo5_01
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 297
+        width: 48
+        height: 38
+      alignment: 9
+      pivot: {x: 0.38231406, y: 0.48848525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo5_02
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 297
+        width: 78
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4825917, y: 0.61439246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo5_03
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 297
+        width: 59
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5733281, y: 0.3264449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo5_04
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 231
+        width: 56
+        height: 55
+      alignment: 9
+      pivot: {x: 0.54617196, y: 0.32922253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo5_05
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 231
+        width: 53
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5533869, y: 0.33854446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo5_06
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 231
+        width: 56
+        height: 57
+      alignment: 9
+      pivot: {x: 0.40781647, y: 0.59962225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_69
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 231
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo4_00
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 231
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo4_01
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 231
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo4_02
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 231
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo4_03
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 231
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo4_04
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 231
+        width: 71
+        height: 34
+      alignment: 9
+      pivot: {x: 0.7001343, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo4_05
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 231
+        width: 69
+        height: 34
+      alignment: 9
+      pivot: {x: 0.7006553, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: combo4_06
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 231
+        width: 69
+        height: 34
+      alignment: 9
+      pivot: {x: 0.7006553, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_77
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 231
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_78
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 231
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_79
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 231
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_80
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 231
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_81
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 231
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_82
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 167
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_83
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 167
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: charging_00
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 167
+        width: 39
+        height: 41
+      alignment: 9
+      pivot: {x: 0.40522376, y: 0.32315993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: charging_01
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 167
+        width: 38
+        height: 41
+      alignment: 9
+      pivot: {x: 0.47007108, y: 0.33356234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_86
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 166
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_87
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 166
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_88
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 166
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_89
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 166
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_90
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 166
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_91
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 166
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_92
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 166
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_93
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 166
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_94
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 166
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_95
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 166
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_96
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 166
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jump_00
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 166
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jump_spin_00
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 166
+        width: 49
+        height: 51
+      alignment: 9
+      pivot: {x: 0.6985486, y: 0.54663056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jump_spin_01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 98
+        width: 37
+        height: 54
+      alignment: 9
+      pivot: {x: 0.47078452, y: 0.6080983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: falling
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 98
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_101
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 98
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_102
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 98
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_103
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 98
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_104
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 98
+        width: 56
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_105
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 98
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_106
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 98
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_107
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 98
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_108
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 98
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_109
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 98
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_110
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 98
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_111
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 98
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_112
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 98
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_113
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 98
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_114
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 98
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_115
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 98
+        width: 60
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_116
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 49
+        width: 59
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_117
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 49
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_118
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 49
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: main_character_119
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 49
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
