@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scirpts\Player\PlayerCombo.cs" />
      <Compile Include="Assets\Scirpts\Player\PlayerController.cs" />
      <Compile Include="Assets\Scirpts\Player\SeftDestruct.cs" />
+     <Compile Include="Assets\Scirpts\Player\WaterSharkBehavior.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GroupLayer.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />

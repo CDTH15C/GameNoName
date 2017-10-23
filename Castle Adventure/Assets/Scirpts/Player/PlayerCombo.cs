@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerCombo : MonoBehaviour {
 
-	public GameObject ice, firePheonix;
+	public GameObject ice, firePheonix, waterShark, combo1Effect;
 
 	private Animator anim;
 	private PlayerController playerCtrl;
@@ -69,6 +69,7 @@ public class PlayerCombo : MonoBehaviour {
 		isAttacking = true;
 		playerCtrl.canControl = false;
 		playerCtrl.setDefault();
+		Instantiate (combo1Effect, transform.position - new Vector3(2f * transform.localScale.x, -0.2f, 0), Quaternion.identity);
 
 		yield return new WaitForSeconds (0.5f);
 
@@ -113,10 +114,15 @@ public class PlayerCombo : MonoBehaviour {
 		playerCtrl.setDefault ();
 
 		yield return new WaitForSeconds (0.3f);
+
 		Rigidbody2D player = playerCtrl.gameObject.GetComponent<Rigidbody2D> ();
 		player.velocity = new Vector2 (-15 * transform.localScale.x, player.velocity.y);
 
 		yield return new WaitForSeconds (0.2f);
+
+		Instantiate (waterShark, transform.position - new Vector3(1f * transform.localScale.x, -0.5f, -0.1f), Quaternion.identity);
+
+		//yield return new WaitForSeconds (0f);
 
 		//playerCtrl.setDefault ();
 		//yield return new WaitForSeconds (0.1f);
@@ -131,7 +137,7 @@ public class PlayerCombo : MonoBehaviour {
 		playerCtrl.setDefault ();
 
 		yield return new WaitForSeconds (0.5f);
-		Instantiate (firePheonix, transform.position - new Vector3(1f * transform.localScale.x, -1.8f, 0), Quaternion.identity);
+		Instantiate (firePheonix, transform.position - new Vector3(1f * transform.localScale.x, -1.8f, -0.1f), Quaternion.identity);
 		yield return new WaitForSeconds (0.2f);
 		playerCtrl.canControl = true;
 		isCombo5 = false;
