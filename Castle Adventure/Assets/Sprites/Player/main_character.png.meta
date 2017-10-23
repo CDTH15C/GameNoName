@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c5fd69ee5383ada408fe26a980f9b9b3
-timeCreated: 1508666913
+timeCreated: 1508773922
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -90,17 +90,17 @@ TextureImporter:
     21300166: main_character_83
     21300168: charging_00
     21300170: charging_01
-    21300172: main_character_86
-    21300174: main_character_87
-    21300176: main_character_88
-    21300178: main_character_89
-    21300180: main_character_90
-    21300182: main_character_91
-    21300184: main_character_92
-    21300186: main_character_93
-    21300188: main_character_94
-    21300190: main_character_95
-    21300192: main_character_96
+    21300172: combo6_00
+    21300174: combo6_01
+    21300176: combo6_02
+    21300178: combo6_03
+    21300180: combo6_04
+    21300182: combo6_005
+    21300184: combo6_06
+    21300186: combo6_07
+    21300188: combo6_08
+    21300190: combo6_09
+    21300192: combo6_10
     21300194: jump_00
     21300196: jump_spin_00
     21300198: jump_spin_01
@@ -1332,145 +1332,145 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: main_character_86
+      name: combo6_00
       rect:
         serializedVersion: 2
         x: 195
         y: 166
         width: 43
         height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.499401, y: 0.53597504}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: main_character_87
+      name: combo6_01
       rect:
         serializedVersion: 2
         x: 240
         y: 166
         width: 39
         height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5298947, y: 0.508218}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: main_character_88
+      name: combo6_02
       rect:
         serializedVersion: 2
         x: 281
         y: 166
         width: 65
         height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.7708825, y: 0.542409}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: main_character_89
+      name: combo6_03
       rect:
         serializedVersion: 2
         x: 348
         y: 166
         width: 64
         height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.7708825, y: 0.542409}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: main_character_90
+      name: combo6_04
       rect:
         serializedVersion: 2
         x: 414
         y: 166
         width: 39
         height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.55655533, y: 0.56762}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: main_character_91
+      name: combo6_005
       rect:
         serializedVersion: 2
         x: 455
         y: 166
         width: 62
         height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.7655743, y: 0.529656}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: main_character_92
+      name: combo6_06
       rect:
         serializedVersion: 2
         x: 519
         y: 166
         width: 62
         height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.76628554, y: 0.564563}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: main_character_93
+      name: combo6_07
       rect:
         serializedVersion: 2
         x: 583
         y: 166
         width: 37
         height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5302322, y: 0.4590466}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: main_character_94
+      name: combo6_08
       rect:
         serializedVersion: 2
         x: 622
         y: 166
         width: 59
         height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.7794365, y: 0.5823}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: main_character_95
+      name: combo6_09
       rect:
         serializedVersion: 2
         x: 683
         y: 166
         width: 59
         height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.75889355, y: 0.588762}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: main_character_96
+      name: combo6_10
       rect:
         serializedVersion: 2
         x: 744
         y: 166
         width: 36
         height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.6112993, y: 0.526364}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

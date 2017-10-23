@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerCombo : MonoBehaviour {
 
-	public GameObject ice, firePheonix, waterShark, combo1Effect;
+	public GameObject ice, firePheonix, waterShark, combo1Effect, fireSpear;
 
 	private Animator anim;
 	private PlayerController playerCtrl;
 	private float timer;
 	private bool isAttacking;
-	private bool isCombo2, isCombo3, isCombo4, isCombo5, canMakeCombo;
+	private bool isCombo2, isCombo3, isCombo4, isCombo5, isCombo6, canMakeCombo;
 
 	void Awake()
 	{
@@ -25,7 +25,7 @@ public class PlayerCombo : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-		canMakeCombo = playerCtrl.grounded && !isCombo3 && !isAttacking && !isCombo4 && !isCombo2 && !isCombo5;
+		canMakeCombo = playerCtrl.grounded && !isCombo3 && !isAttacking && !isCombo4 && !isCombo2 && !isCombo5 && !isCombo6;
 
 		if (Input.GetKeyDown (KeyCode.X) && canMakeCombo) {
 			anim.SetTrigger ("MakeCombo");
@@ -46,9 +46,16 @@ public class PlayerCombo : MonoBehaviour {
 			}
 		}
 
-		if (Input.GetKeyDown (KeyCode.Z) && canMakeCombo) {
+		if (Input.GetKeyDown (KeyCode.Z) && canMakeCombo && !(Input.GetKey (KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow))) {
 			anim.SetTrigger ("MakeCombo");
 			StartCoroutine(combo5 ());
+		}
+
+		if ((Input.GetKey (KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow)) && !Input.GetKey(KeyCode.UpArrow) && canMakeCombo) {
+			if (Input.GetKeyDown (KeyCode.Z) && canMakeCombo) {
+				anim.SetTrigger ("MakeCombo");
+				StartCoroutine (combo6 ());
+			}
 		}
 
 		setAnimation ();
@@ -62,6 +69,7 @@ public class PlayerCombo : MonoBehaviour {
 		anim.SetBool ("isCombo3", isCombo3);
 		anim.SetBool ("isCombo4", isCombo4);
 		anim.SetBool ("isCombo5", isCombo5);
+		anim.SetBool ("isCombo6", isCombo6);
 	}
 
 	IEnumerator combo1()
@@ -97,7 +105,7 @@ public class PlayerCombo : MonoBehaviour {
 		playerCtrl.setDefault ();
 
 		yield return new WaitForSeconds (0.3f);
-		Instantiate (ice, transform.position - new Vector3(0.5f * transform.localScale.x, 0.5f, 0), Quaternion.identity);
+		Instantiate (ice, transform.position - new Vector3(0.5f * transform.localScale.x, -1.7f, -0.1f), Quaternion.identity);
 		Rigidbody2D player = playerCtrl.gameObject.GetComponent<Rigidbody2D> ();
 		player.velocity = new Vector2 (player.velocity.x, 11f);
 
@@ -142,5 +150,21 @@ public class PlayerCombo : MonoBehaviour {
 		playerCtrl.canControl = true;
 		isCombo5 = false;
 	}
+
+	IEnumerator combo6()
+	{
+		isCombo6 = true;
+		playerCtrl.canControl = false;
+		playerCtrl.setDefault ();
+
+		yield return new WaitForSeconds (0.3f);
+		Instantiate (fireSpear, transform.position - new Vector3(1.5f * transform.localScale.x, -0.3f, 0), Quaternion.identity);
+
+		yield return new WaitForSeconds (0.2f);
+
+		isCombo6 = false;
+		playerCtrl.canControl = true;
+	}
+
 
 }
