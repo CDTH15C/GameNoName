@@ -19,13 +19,13 @@ Platform assembly: D:\GitHub\GameNoName\Castle Adventure\Product\Castle_Adventur
 Loading D:\GitHub\GameNoName\Castle Adventure\Product\Castle_Adventure_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
 Platform assembly: D:\GitHub\GameNoName\Castle Adventure\Product\Castle_Adventure_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading D:\GitHub\GameNoName\Castle Adventure\Product\Castle_Adventure_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.049 seconds
+- Completed reload, in  0.244 seconds
 Platform assembly: D:\GitHub\GameNoName\Castle Adventure\Product\Castle_Adventure_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\GitHub\GameNoName\Castle Adventure\Product\Castle_Adventure_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 56.306259 ms
+UnloadTime: 5.286004 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 40c -> priority: 1 
+  Thread -> id: 710 -> priority: 1 

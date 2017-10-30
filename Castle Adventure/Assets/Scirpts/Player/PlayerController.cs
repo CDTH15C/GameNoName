@@ -22,6 +22,12 @@ public class PlayerController : MonoBehaviour {
 	void FixedUpdate () {
 		CheckGrounded ();
 
+		if (player.velocity.y < -16) {
+			Vector3 temp = player.velocity;
+			temp.y = -16;
+			player.velocity = temp;
+		}
+
 		if (canControl) {
 			Move ();
 			Jump ();

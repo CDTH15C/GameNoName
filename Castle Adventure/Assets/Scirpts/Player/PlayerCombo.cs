@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerCombo : MonoBehaviour {
 
+	public bool canCombo1 = false,canCombo2 =false, canCombo3=false, canCombo4=false,canCombo5=false, canCombo6=false;
 	public GameObject ice, firePheonix, waterShark, combo1Effect, fireSpear;
 
 	private Animator anim;
@@ -27,31 +28,31 @@ public class PlayerCombo : MonoBehaviour {
 
 		canMakeCombo = playerCtrl.grounded && !isCombo3 && !isAttacking && !isCombo4 && !isCombo2 && !isCombo5 && !isCombo6;
 
-		if (Input.GetKeyDown (KeyCode.X) && canMakeCombo) {
+		if (Input.GetKeyDown (KeyCode.X) && canMakeCombo && canCombo1) {
 			anim.SetTrigger ("MakeCombo");
 			StartCoroutine(combo1 ());
 		}
 
 		if (Input.GetKey (KeyCode.UpArrow)) {
-			if (Input.GetKeyDown (KeyCode.C) && canMakeCombo) {
+			if (Input.GetKeyDown (KeyCode.C) && canMakeCombo && canCombo3) {
 				anim.SetTrigger ("MakeCombo");
 				StartCoroutine (combo3 ());
 			}
 		}
 
-		if ((Input.GetKey (KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow)) && !Input.GetKey(KeyCode.UpArrow) && canMakeCombo) {
+		if ((Input.GetKey (KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow)) && !Input.GetKey(KeyCode.UpArrow) && canMakeCombo && canCombo4) {
 			if (Input.GetKeyDown (KeyCode.C) && canMakeCombo) {
 				anim.SetTrigger ("MakeCombo");
 				StartCoroutine (combo4 ());
 			}
 		}
 
-		if (Input.GetKeyDown (KeyCode.Z) && canMakeCombo && !(Input.GetKey (KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow))) {
+		if (Input.GetKeyDown (KeyCode.Z) && canMakeCombo && !(Input.GetKey (KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow)) && canCombo5) {
 			anim.SetTrigger ("MakeCombo");
 			StartCoroutine(combo5 ());
 		}
 
-		if ((Input.GetKey (KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow)) && !Input.GetKey(KeyCode.UpArrow) && canMakeCombo) {
+		if ((Input.GetKey (KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow)) && !Input.GetKey(KeyCode.UpArrow) && canMakeCombo && canCombo6) {
 			if (Input.GetKeyDown (KeyCode.Z) && canMakeCombo) {
 				anim.SetTrigger ("MakeCombo");
 				StartCoroutine (combo6 ());
@@ -105,7 +106,7 @@ public class PlayerCombo : MonoBehaviour {
 		playerCtrl.setDefault ();
 
 		yield return new WaitForSeconds (0.3f);
-		Instantiate (ice, transform.position - new Vector3(0.5f * transform.localScale.x, -1.7f, -0.1f), Quaternion.identity);
+		Instantiate (ice, transform.position - new Vector3(0f * transform.localScale.x, -2.1f, -0.1f), Quaternion.identity);
 		Rigidbody2D player = playerCtrl.gameObject.GetComponent<Rigidbody2D> ();
 		player.velocity = new Vector2 (player.velocity.x, 11f);
 
